@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  background-color: burlywood;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.flex-container div:not(.importante) {
+    width: 100px;
+    height: 100px;
+    background-color: #00a8e8;
+    transform: rotate(-45deg);
+    margin: 0 10px;
+}
+.importante {
+    width: 100px;
+    height: 100px;
+    background-color: #00a8e8;
+    margin: 0 10px;
+}
