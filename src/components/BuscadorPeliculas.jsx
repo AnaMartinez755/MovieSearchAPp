@@ -22,6 +22,7 @@ const BuscadorPeliculas = () => {
       );
       const data = await response.json();
       setDatosPeliculas(data.results);
+      console.log(data.results)
     } catch (error) {
       console.error("ocurrio un error");
     }
